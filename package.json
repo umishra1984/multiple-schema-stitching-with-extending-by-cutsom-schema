@@ -1,0 +1,30 @@
+{
+  "name": "remote-graphql-apis-in-single-setup",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "dependencies": {
+    "apollo-link": "^1.2.2",
+    "apollo-link-context": "^1.0.14",
+    "apollo-link-http": "^1.5.4",
+    "apollo-server": "^2.0.5",
+    "graphql": "^14.1.1",
+    "graphql-tools": "^4.0.4",
+    "isomorphic-unfetch": "^3.0.0",
+    "node-fetch": "^2.2.0",
+    "pg": "^7.8.0",
+    "typeorm": "^0.2.13",
+    "typescript": "^3.3.3"
+  },
+  "devDependencies": {
+    "@types/node": "^11.9.0",
+    "nodemon": "^1.18.10",
+    "object-assign": "^4.1.1",
+    "ts-node": "^8.0.2"
+  },
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Utkarsh Mishra"
+}
